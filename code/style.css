@@ -1,0 +1,35 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#logo {
+  color: #4E47FF;
+}
+
+
+.hero-section {
+  max-width: 100%;
+  height: 100vh;
+  padding: 0 150px;
+  background-image: url(../Assets/Hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.hero-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+  gap: 40px;
+  text-align: center;
+}
+
+

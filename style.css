@@ -36,7 +36,7 @@
 
 .action-section {
   max-width: 100%;
-  padding: 120px;
+  padding: 120px 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

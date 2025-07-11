@@ -169,6 +169,77 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   justify-content: center;
   text-align: center;
+}
+
+/* lets-get-in-touch-section */
+
+.contact-section {
+  max-width: 100%;
+  margin: 0px 150px 120px 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form-headline {
+  font-size: 97px;
+}
+
+.contact-left-section {
+  width: 50%;
+}
+
+.contact-right-section {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-right-section input {
+  font-size: 16px;
+  color: #737373;
+  padding: 23px 20px;
+  background-color: #fafafa;
+  border: 1px solid rgba(78, 71, 255, 0.1);
+  border-radius: 10px;
+}
+
+.contact-right-section textarea {
+  font-size: 16px;
+  color: #737373;
+  background-color: #fafafa;
+  border: 1px solid rgba(78, 71, 255, 0.1);
+  border-radius: 10px;
+  padding: 23px 20px 90px 20px;
+}
+
+.contact-right-section button {
+  border: 1px solid rgba(78, 71, 255, 0.1);
+  border-radius: 10px;
+  padding: 19px 36px;
+}
+
+.contact-right-section label {
+  font-size: 16px;
+  font-weight: 700;
 }

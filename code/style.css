@@ -148,3 +148,27 @@ img {
   flex-direction: column;
   align-items: start;
 }
+
+/* optional-section */
+
+.optional-section {
+  max-width: 100%;
+  margin: 120px 150px;
+  padding: 70px 0px;
+  background-color: #fafafa;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+.optional-section-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

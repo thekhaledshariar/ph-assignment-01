@@ -19,6 +19,7 @@ button {
   text-transform: capitalize;
   border-radius: 10px;
   padding: 12px 36px;
+  transition: all 0.3s ease-in-out;
 }
 
 button:hover {
@@ -26,7 +27,6 @@ button:hover {
   color: #4E47FF;
   border: 1px solid #4E47FF;
   cursor: pointer;
-  transition: 0.3s ease-in;
 }
 
 /* font-style */
@@ -36,7 +36,7 @@ h1 {
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.25em;
-    margin: 0%;
+    margin: 0;
     color: #0e0e0e;
 }
 
@@ -45,7 +45,7 @@ h2 {
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.25em;
-    margin: 0%;
+    margin: 0;
     color: #0e0e0e;
 }
 
@@ -54,7 +54,7 @@ h3 {
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.25em;
-    margin: 0%;
+    margin: 0;
     color: #0e0e0e;
 }
 
@@ -62,7 +62,7 @@ h4 {
     font-size: 24px;
     font-weight: 400;
     line-height: 1.25em;
-    margin: 0%;
+    margin: 0;
     color: #737373;
 }
 
@@ -70,7 +70,7 @@ h5 {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.25em;
-    margin: 0%;
+    margin: 0;
     color: #737373;
 }
 
@@ -78,7 +78,7 @@ h6 {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.25em;
-    margin: 0%;
+    margin: 0;
     color: #4E47FF;
 }
 
@@ -86,6 +86,6 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     color: #0e0e0e;
-    margin: 0%;
+    margin: 0;
     line-height: 1.5em;
 }

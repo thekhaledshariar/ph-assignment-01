@@ -3,13 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 0px;
 }
-
 
 #logo {
   color: #4E47FF;
 }
 
+/* hero-section */
 
 .hero-section {
   max-width: 100%;
@@ -21,7 +22,6 @@
   background-position: center;
 }
 
-
 .hero-contents {
   display: flex;
   flex-direction: column;
@@ -32,4 +32,24 @@
   text-align: center;
 }
 
+/* action-section */
 
+.action-section {
+  max-width: 100%;
+  padding: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-section-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+img {
+  border-radius: 48px;
+}

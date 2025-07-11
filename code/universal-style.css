@@ -34,6 +34,7 @@ h2 {
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.25em;
+    margin: 0%;
     color: #0e0e0e;
 }
 
@@ -42,6 +43,7 @@ h3 {
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.25em;
+    margin: 0%;
     color: #0e0e0e;
 }
 
@@ -49,13 +51,15 @@ h4 {
     font-size: 24px;
     font-weight: 400;
     line-height: 1.25em;
-    color: #0e0e0e;
+    margin: 0%;
+    color: #737373;
 }
 
 h5 {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.25em;
+    margin: 0%;
     color: #0e0e0e;
 }
 
@@ -63,6 +67,7 @@ h6 {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.25em;
+    margin: 0%;
     color: #fafafa;
 }
 
@@ -70,5 +75,6 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     color: #0e0e0e;
+    margin: 0%;
     line-height: 1.5em;
 }
